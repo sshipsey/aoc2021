@@ -28,6 +28,6 @@ export const printMatrix = (matrix: any[][]) =>
 
 export const readDayInputToArray = (day: number) =>
   fs
-    .readFileSync(__dirname + `\\day${day}\\input.txt`)
+    .readFileSync(__dirname + `/day${day}/input.txt`)
     .toString('utf-8')
     .split('\n');
